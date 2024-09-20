@@ -1,0 +1,29 @@
+
+:root {
+  font-family: Gelato-Sans, sans-serif;
+  line-height: 1.15;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000000;
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Gelato Sans custom';
+  src: local('Gelato Sans Regular'), local('Gelato-Sans-Regular'),
+      url('../src/utils/fonts/GelatoSans-Regular.woff2') format('woff2'),
+      url('../src/utils/fonts/GelatoSans-Regular.woff') format('woff'),
+      url('../src/utils/fonts/GelatoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.customFont{
+  font-family: Gelato Sans custom;
+}
